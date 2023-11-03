@@ -1,0 +1,61 @@
+.navbar button {
+  color: #dc3545;
+  border: 1px solid #dc3545;
+  box-shadow: 0 0 5px #dc3545;
+}
+.navbar button:focus {
+  box-shadow: 0 0 8px #dc3545;
+}
+.navbar button span {
+  text-decoration-color: #dc3545;
+}
+.navbar a {
+  color: #dc3545;
+}
+.navbar a:hover {
+  color: #dc3545 !important;
+  text-shadow: 0 0 4px #dc3545;
+}
+.navbar a:active {
+  text-shadow: 0 0 4px #dc3545;
+}
+.navbar i {
+  padding-right: 8px;
+}
+
+.section1__contenedor {
+  height: calc(30vh - 40px);
+}
+.section1__contenedor div {
+  height: 100%;
+}
+
+.section2__contenedor h1 {
+  color: #dc3545;
+  border-top: 1px solid #dc3545;
+}
+.section2__contenedor div {
+  display: flex;
+  overflow-x: auto;
+  align-items: center;
+}
+.section2__contenedor div .btn {
+  border-radius: 0;
+}
+.section2__contenedor div .btn--purple {
+  background-color: #6f42c1;
+  color: #FFFFFF;
+}
+
+.section3__contenedor h2 {
+  color: #dc3545;
+  border-top: 1px solid #dc3545;
+}
+.section3__contenedor p {
+  font-stretch: expanded;
+}
+
+.body {
+  background-color: #111111;
+  color: #FFFFFF;
+}/*# sourceMappingURL=style.css.map */
