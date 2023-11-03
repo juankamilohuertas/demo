@@ -1,0 +1,19 @@
+@use 'colors'
+.navbar
+    button
+        color: colors.$red
+        border: 1px solid colors.$red
+        box-shadow: 0 0 5px colors.$red
+        &:focus
+            box-shadow: 0 0 8px colors.$red
+        span
+            text-decoration-color: colors.$red
+    a
+        color: colors.$red
+        &:hover
+            color: colors.$red !important
+            text-shadow: 0 0 4px colors.$red
+        &:active
+            text-shadow: 0 0 4px colors.$red
+    i
+        padding-right: 8px
