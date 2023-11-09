@@ -1,7 +1,11 @@
+.navbar {
+  background-color: #3d3d3d;
+}
 .navbar button {
   color: #dc3545;
   border: 1px solid #dc3545;
-  box-shadow: 0 0 5px #dc3545;
+  background-color: #FFFFFF;
+  color: #FFFFFF;
 }
 .navbar button:focus {
   box-shadow: 0 0 8px #dc3545;
@@ -49,10 +53,17 @@
 
 .section3__contenedor h2 {
   color: #dc3545;
-  border-top: 1px solid #dc3545;
+  border-bottom: 1px solid #dc3545;
 }
 .section3__contenedor p {
   font-stretch: expanded;
+}
+.section3__contenedor .card {
+  border: 1px solid #dc3545;
+}
+.section3__contenedor .card-body {
+  background: #3d3d3d;
+  color: #FFFFFF;
 }
 
 .body {
